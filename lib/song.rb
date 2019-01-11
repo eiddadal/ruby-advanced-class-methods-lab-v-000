@@ -49,6 +49,7 @@ class Song
     song = self.new 
     rows = filename.split("-")
     songs = rows.collect do |row|
+      data = row.split 
   end 
   end 
   
