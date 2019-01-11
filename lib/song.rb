@@ -47,11 +47,12 @@ class Song
   
   def self.new_from_filename(name)
     
-    filename = data.collect do 
+    filename = data.collect do |file|
     song = self.new 
     song.name = name 
     song.artist_name = artist_name
     song 
+  end 
   end 
   
   def self.create_from_filename(name)
