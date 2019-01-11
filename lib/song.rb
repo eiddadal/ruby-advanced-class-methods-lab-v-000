@@ -51,7 +51,6 @@ class Song
     songs = rows.collect do |row|
       data = row.split 
   end 
-  end 
   
   def self.create_from_filename(name)
   end 
