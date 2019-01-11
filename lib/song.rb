@@ -32,7 +32,7 @@ class Song
     if find_by_name(name) == nil 
       find_by_name(name)
     else 
-      find_by_name(name )
+      find_by_name(name)
     end 
   end 
   
